@@ -1,0 +1,85 @@
+/* pages/award/award.wxss */
+.auto{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.flex{
+    position: absolute;
+    top: 500rpx;
+    left: 0rpx;
+    width: 750rpx;
+    z-index: 0;
+    background-color: teal;
+}
+.flex1{
+    position: absolute;
+    top: 600rpx;
+    left: 0rpx;
+    width: 750rpx;
+    height: 50rpx;
+    z-index: 0;
+    background-color: teal;
+}
+.flex2{
+    position: absolute;
+    top: 700rpx;
+    left: 0rpx;
+    width: 750rpx;
+    height: 50rpx;
+    z-index: 0;
+    background-color: teal;
+}
+.flex3{
+    position: absolute;
+    top: 800rpx;
+    left: 0rpx;
+    width: 750rpx;
+    height: 50rpx;
+    z-index: 0;
+    background-color: teal;
+}
+.flex4{
+    position: absolute;
+    top: 900rpx;
+    left: 0rpx;
+    width: 750rpx;
+    height: 50rpx;
+    z-index: 0;
+    background-color: teal;
+}
+.flex5{
+    position: absolute;
+    top: 1000rpx;
+    left: 0rpx;
+    width: 750rpx;
+    height: 50rpx;
+    z-index: 0;
+    background-color: teal;
+}
+.text1{
+    font-size: 45rpx;
+    margin-left: 30rpx;
+    color: rgb(216, 186, 14);
+}
+.input1{
+    background-color: thistle;
+    margin-left: 30rpx;
+    width: 400rpx;
+    height: 80rpx;
+}
+.input2{
+    background-color: thistle;
+    margin-left: 30rpx;
+    width: 150rpx;
+    height: 80rpx;
+}
+.button_1{
+    position: relative;
+    top: 1200rpx;
+    height: 100rpx;
+    font-size: 45rpx;
+    background-color: rgb(216, 186, 14);
+}

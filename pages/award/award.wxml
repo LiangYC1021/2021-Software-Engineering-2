@@ -1,0 +1,62 @@
+<!--pages/award/award.wxml-->
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://pic.imgdb.cn/item/615b0bfa2ab3f51d91227dd6.png"></image>
+</view>
+
+<div class="flex" style="width:400px; height: 40px;  display: flex;flex-flow: row;">
+    <text class="text1">一秀</text>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input1" id="username" type="text" placeholder="请输入奖品名"/>
+        </div>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input2" id="username" type="number" placeholder="数量"/>
+        </div>
+</div>
+<div class="flex1" style="width:400px; height: 40px;  display: flex;flex-flow: row;">
+    <text class="text1">二举</text>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input1" id="username" type="text" placeholder="请输入奖品名"/>
+        </div>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input2" id="username" type="number" placeholder="数量"/>
+        </div>
+</div>
+<div class="flex2" style="width:400px; height: 40px;  display: flex;flex-flow: row;">
+    <text class="text1">三红</text>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input1" id="username" type="text" placeholder="请输入奖品名"/>
+        </div>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input2" id="username" type="number" placeholder="数量"/>
+        </div>
+</div>
+<div class="flex3" style="width:400px; height: 40px;  display: flex;flex-flow: row;">
+    <text class="text1">四进</text>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input1" id="username" type="text" placeholder="请输入奖品名"/>
+        </div>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input2" id="username" type="number" placeholder="数量"/>
+        </div>
+</div>
+<div class="flex4" style="width:400px; height: 40px;  display: flex;flex-flow: row;">
+    <text class="text1">对堂</text>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input1" id="username" type="text" placeholder="请输入奖品名"/>
+        </div>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input2" id="username" type="number" placeholder="数量"/>
+        </div>
+</div>
+<div class="flex5" style="width:400px; height: 40px;  display: flex;flex-flow: row;">
+    <text class="text1">状元</text>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input1" id="username" type="text" placeholder="请输入奖品名"/>
+        </div>
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input2" id="username" type="number" placeholder="数量"/>
+        </div>
+</div>
+<view class="view">
+    <button bindtap="toBegin1" class="button_1">确定</button>
+</view>

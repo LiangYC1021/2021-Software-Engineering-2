@@ -1,0 +1,16 @@
+<!--pages/set/set.wxml-->
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://pic.imgdb.cn/item/615b0bfa2ab3f51d91227dd6.png"></image>
+</view>
+<view wx:if="canIUse">
+    <view class="header">
+        <view class="userinfo-avatar">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+    </view>
+    <view class="content">
+        <view>申请获取以下权限</view>
+        <text>获得您的公开信息（昵称，头像等）</text>
+    </view>
+    <button bindtap="toBegin" class="bottom" type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+</view>

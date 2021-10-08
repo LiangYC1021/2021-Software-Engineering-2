@@ -1,0 +1,19 @@
+<!--pages/creat/creat.wxml-->
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://pic.imgdb.cn/item/615b0bfa2ab3f51d91227dd6.png"></image>
+</view>
+<view class="container">
+    <view class="title">房间号</view>
+    <view class="read">
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input" id="username" type="number" maxlength="4" placeholder="请输入4位房间号"/>
+        </div>
+    </view>
+    <button bindtap="toBegin" class="button_1">奖品设置</button>
+    <button bindtap="modalinput" class="button_2">开始游戏</button>
+</view>
+   <modal hidden="{{hiddenmodalput}}" title="请输入房间人数" 
+   			confirm-text="确定" cancel-text="取消" bindcancel="modalinput" 
+   			bindconfirm="confirm">
+               <input bindinput="people" name='value' type='number' placeholder="请输入房间人数" auto-focus/>
+   </modal>

@@ -1,0 +1,12 @@
+
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://pic.imgdb.cn/item/615b0bfa2ab3f51d91227dd6.png"></image>
+</view>
+
+
+<view class="container">
+    <button bindtap="toBegin" class="button_1">游戏帮助</button>
+    <button bindtap="toBegin1" class="button_2">玩家设置</button>
+    <button bindtap="toBegin2" class="button_3">创建房间</button>
+    <button bindtap="toBegin3" class="button_4">加入房间</button>
+</view>

@@ -1,0 +1,25 @@
+<!--pages/game/game.wxml-->
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://pic.imgdb.cn/item/615af14f2ab3f51d91f77116.png"></image>
+</view>
+<view class="container">
+    <button class="text1" bindtap="toBegin1" size="mini">退出房间</button>
+</view>
+<open-data type="userAvatarUrl" class="image1"></open-data>
+<open-data type="userNickName" class="container1" style="color: brown;"></open-data>
+<view class="container2">
+    <view class="point1">
+        <image src="{{one_image}}"></image>
+        <image src="{{two_image}}"></image>
+    </view>
+    <view class="point2">
+        <image src="{{three_image}}"></image>
+        <image src="{{four_image}}"></image>
+    </view>
+    <view class="point3">
+        <image src="{{five_image}}"></image>
+        <image src="{{six_image}}"></image>
+    </view>
+    <button class="button" size="mini" bindtap="go">GO!</button>
+    <view class="msg" style="color: white;">恭喜你！{{msg}}</view>
+</view>

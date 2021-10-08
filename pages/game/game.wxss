@@ -1,0 +1,66 @@
+/* pages/game/game.wxss */
+.auto{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.image1{
+    width: 140rpx;
+    height: 140rpx;
+    margin-left: 560rpx;
+    border-radius: 50%;
+    overflow:hidden;
+    z-index: 1;
+}
+.point1 image,.point2 image,.point3 image{
+    width: 140rpx;
+    height: 140rpx;
+}
+.point1 image{
+    margin-left: 75rpx;
+}
+.point2 image{
+    margin-top: 20rpx;
+    margin-left: 75rpx;
+}
+.point3 image{
+    margin-top: 20rpx;
+    margin-left: 75rpx;
+}
+.text1{
+    font-size: 100rpx;
+}
+.container{
+    margin-top: 12rpx;
+    margin-left: 12rpx;
+    width: 200rpx;
+    height: 60rpx;
+    background-color: white;
+    z-index: 0;
+}
+.container1{
+    width: 100rpx;
+    height: 60rpx;
+    margin-top: 30rpx;
+    margin-left: 585rpx;
+    z-index: 0;
+}
+.container2{
+    width: 500rpx;
+    height: 650rpx;
+    margin-top: 90rpx;
+    margin-left: 130rpx;
+    z-index: 0;
+}
+.button{
+    background-color: white;
+    margin-top: 20rpx;
+    margin-left: 200rpx;
+    z-index: 1;
+}
+.msg{
+    text-align: center;
+}

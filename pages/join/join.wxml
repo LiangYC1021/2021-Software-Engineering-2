@@ -1,0 +1,13 @@
+<!--pages/join/join.wxml-->
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://pic.imgdb.cn/item/615b0bfa2ab3f51d91227dd6.png"></image>
+</view>
+<view class="container">
+    <view class="title">房间链接</view>
+    <view class="read">
+        <div style="text-align:center;vertical-align:middel;">
+            <input class="input" id="username" type="number" maxlength="4" placeholder="请输入4位房间号"/>
+        </div>
+    </view>
+    <button bindtap="toBegin1" class="button_1">开始游戏</button>
+</view>

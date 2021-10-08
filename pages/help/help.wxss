@@ -1,0 +1,35 @@
+/* pages/help/help.wxss */
+.auto{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.container{
+    position: absolute;
+    top: 550rpx;
+    left: 205rpx;
+    width: 350rpx;
+    height: 800rpx;
+    z-index: 0;
+}
+.button_1{
+    position: relative;
+    height: 135rpx;
+    font-size: 67rpx;
+    background-color: rgb(216, 186, 14);
+}
+.button_2{
+    position: relative;
+    height: 135rpx;
+    font-size: 67rpx;
+    margin-top: 255rpx;
+    background-color: rgb(216, 186, 14);
+}
+.image{
+    width: 550rpx;
+    height: 720rpx;
+    margin-left: 5rpx;
+    margin-right: 5rpx;
+}

@@ -1,0 +1,49 @@
+/* pages/home/home.wxss */
+
+.auto{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.container{
+    position: absolute;
+    top: 550rpx;
+    left: 205rpx;
+    width: 350rpx;
+    height: 800rpx;
+    z-index: 0;
+}
+
+.button_1{
+    position: relative;
+    height: 135rpx;
+    width: 100rpx;
+    font-size: 67rpx;
+    background-color: rgb(216, 186, 14);
+}
+
+.button_2{
+    position: relative;
+    height: 135rpx;
+    margin-top: 60rpx;
+    font-size: 67rpx;
+    background-color: rgb(216, 186, 14);
+}
+.button_3{
+    position: relative;
+    height: 135rpx;
+    margin-top: 60rpx;
+    font-size: 67rpx;
+    background-color: rgb(216, 186, 14);
+}
+.button_4{
+    position: relative;
+    height: 135rpx;
+    margin-top: 60rpx;
+    font-size: 67rpx;
+    background-color: rgb(216, 186, 14);
+}

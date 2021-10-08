@@ -1,0 +1,13 @@
+<!--pages/help/help.wxml-->
+<view class="auto">
+    <image style="width:100%;height:100%;" mode='aspectFill' src="https://pic.imgdb.cn/item/615b0bfa2ab3f51d91227dd6.png"></image>
+</view>
+<view class="container">
+    <button bindtap="showWindows1" class="button_1">游戏帮助</button>
+    <button bindtap="showWindows2" class="button_2">博饼规则</button>
+    <modal title="规则" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+    <view>
+      <image class="image" src="https://pic.imgdb.cn/item/615b0c692ab3f51d912339ce.png" ></image>
+    </view>
+    </modal>
+</view>
