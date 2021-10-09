@@ -42,22 +42,16 @@ Page({
       })
       if (obj.data.flag==true){
         let one = Math.floor(Math.random() * 5 + 1);
-        // let one = 3;
         obj.data.list[one]=obj.data.list[one]+1;
         let two = Math.floor(Math.random() * 5 + 1);
-        // let two = 3;
         obj.data.list[two]=obj.data.list[two]+1;
         let three = Math.floor(Math.random() * 5 + 1);
-        // let three = 3;
         obj.data.list[three]=obj.data.list[three]+1;
         let four = Math.floor(Math.random() * 5 + 1);
-        // let four = 3;
         obj.data.list[four]=obj.data.list[four]+1;
         let five = Math.floor(Math.random() * 5 + 1);
-        // let five = 5;
         obj.data.list[five]=obj.data.list[five]+1;
         let six = Math.floor(Math.random() * 5 + 1);
-        // let six = 4;
         obj.data.list[six]=obj.data.list[six]+1;
         console.log(obj.data.list);
         if (obj.data.list[0]==1 && obj.data.list[1]==1 && obj.data.list[2]==1 && obj.data.list[3]==1 && obj.data.list[4]==1 && obj.data.list[5]==1){
@@ -128,7 +122,6 @@ Page({
           four_image : obj.data.arr[four],
           five_image : obj.data.arr[five],
           six_image : obj.data.arr[six],
-          // flag:false,
         })
       }
     },
